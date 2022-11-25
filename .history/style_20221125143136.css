@@ -671,12 +671,6 @@ fieldset {
 
 .about-me-lang {
   color: var(--white-color);
-  font-family: 'InaiMathi';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  padding: 20px;
 }
 
 #about-me-rectangle {
@@ -687,15 +681,15 @@ fieldset {
   list-style-type: none;
   margin-left: -35px;
   text-align: start;
-  margin-top: 20px;
+  margin-top: -1px;
   margin-bottom: 20px;
   color: var(--white-color);
 }
 
 #lang-list li {
   margin-bottom: 20px;
-  margin-left: -10px;
-  text-align: center;
+  margin-left: 100px;
+  text-align: justify;
   color: var(--white-color);
   font-size: 22px;
 }

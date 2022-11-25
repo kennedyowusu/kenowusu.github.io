@@ -676,7 +676,6 @@ fieldset {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  padding: 20px;
 }
 
 #about-me-rectangle {
@@ -694,7 +693,7 @@ fieldset {
 
 #lang-list li {
   margin-bottom: 20px;
-  margin-left: -10px;
+  /* margin-left: 160px; */
   text-align: center;
   color: var(--white-color);
   font-size: 22px;
