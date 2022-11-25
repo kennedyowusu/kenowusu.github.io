@@ -51,7 +51,17 @@ const worksDesktop = [
 
 ];
 
-for (let index = 0; index < array.length; index++) {
-  const element = array[index];
-  
+// eslint-disable-next-line no-plusplus
+for (let index = 0; index < famous.length; index++) {
+  document.querySelector('.famous-people-loop-holder').innerHTML += `
+    <div class="famous__item">
+      <div class="famous__item__img">
+        <img src="${famous[index].image}" alt="" height="110px" width="120px;" class="">
+      </div>
+      <div class="famous__item__text">
+        <h3 class="title">${famous[index].name}</h3>
+        <p class="first-para">${famous[index].firstParagraph}</p>
+        <p class="second-para">${famous[index].secondParagraph}</p>
+      </div>
+    </div>`;
 }
