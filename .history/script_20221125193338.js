@@ -21,7 +21,7 @@ toggleMenu.addEventListener('click', () => {
 const worksDesktop = [
   {
     id: 1,
-    title: 'Multi Post Stories One',
+    title: 'Multi Post Stories',
     description: '',
     tools: [
       'html',
@@ -34,7 +34,7 @@ const worksDesktop = [
 
   {
     id: 2,
-    title: 'Multi Post Stories Two',
+    title: 'Multi Post Stories',
     description: '',
     tools: [
       'html',
@@ -47,7 +47,7 @@ const worksDesktop = [
 
   {
     id: 3,
-    title: 'Multi Post Stories Three',
+    title: 'Multi Post Stories',
     description: '',
     tools: [
       'html',
@@ -60,7 +60,7 @@ const worksDesktop = [
 
   {
     id: 4,
-    title: 'Multi Post Stories Four',
+    title: 'Multi Post Stories',
     description: '',
     tools: [
       'html',
@@ -73,7 +73,7 @@ const worksDesktop = [
 
   {
     id: 5,
-    title: 'Multi Post Stories Five',
+    title: 'Multi Post Stories',
     description: '',
     tools: [
       'html',
@@ -86,7 +86,7 @@ const worksDesktop = [
 
   {
     id: 6,
-    title: 'Multi Post Stories Six',
+    title: 'Multi Post Stories',
     description: '',
     tools: [
       'html',

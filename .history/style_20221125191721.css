@@ -162,21 +162,22 @@ p {
 
 .featured-works-popup {
   width: 343px;
-  height: 93%;
+  height: 100%;
   background: #fff;
   position: absolute;
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.1);
   text-align: center;
-  padding-left: 15px;
+  padding-left: 30px;
   padding-right: 30px;
   margin-top: 20px;
+  
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   color: #e05304;
   visibility: hidden;
   transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .featured-works-popup-heading {
@@ -263,7 +264,7 @@ p {
   align-items: center;
   background: var(--orange-color);
   border: none;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
 }
 
 .btn-text-popup {
@@ -279,7 +280,7 @@ p {
   color: #fff;
   background-color: #172B4D;
   border: 1px solid #172B4D;
-  padding: 8px 12px;
+  /* padding: 8px 12px; */
   margin-right: 8px;
   text-align: center;
   cursor: pointer;

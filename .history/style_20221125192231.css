@@ -176,7 +176,7 @@ p {
   color: #e05304;
   visibility: hidden;
   transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: 5px 10px 18px #888888:
 }
 
 .featured-works-popup-heading {
