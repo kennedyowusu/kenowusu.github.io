@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --navbar-color: #3C3A39;
+  --hero-color: #1C1A19;
+  --orange-color: ##FF6B00;
+  --semi-white-color: ##FFF5E1;
+  --white-color: #fff;
+  --black-color: #000;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  --border-radius: 0.5rem;
+  --box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  --transition: all 0.03s linear;
+  --spacing: 0.3rem;
+  --light-spacing: 0.5rem;
+  --max-width: 1170px;
+}
+
+* {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.3s linear;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 50%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 5rem;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: var(--white-color);
+  color: var(--white-color);
+  width: 100%;
+}
