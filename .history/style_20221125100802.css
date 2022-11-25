@@ -547,7 +547,7 @@ p {
   }
 
   .featured-work-text h3 {
-    margin-top: -170px;
+    margin-top: -220px;
     width: 448px;
     height: 48px;
     font-family: 'Crete Round';
@@ -562,6 +562,7 @@ p {
 
   .featured-work-text p {
     width: 448px;
+    /* height: 140px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -590,23 +591,6 @@ p {
     font-size: 15px;
     line-height: 20px;
     color: #091E42;
-  }
-
-  .featured-work-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 124px;
-    height: 48px;
-    background: #F55800;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-top: 24px;
   }
 
 }

@@ -547,7 +547,7 @@ p {
   }
 
   .featured-work-text h3 {
-    margin-top: -170px;
+    margin-top: -220px;
     width: 448px;
     height: 48px;
     font-family: 'Crete Round';
@@ -562,12 +562,19 @@ p {
 
   .featured-work-text p {
     width: 448px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #091E42;
+height: 140px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+
+/* Neutrals/N900 */
+
+color: #091E42;
   }
 
   .featured-work-tags {
@@ -581,33 +588,17 @@ p {
   }
 
   .featured-work-tag {
-    border: 1px solid #8993A4;
-    padding: 10px 12px;
-    height: 40px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #091E42;
+    border: 1px solid #8993a4;
   }
 
-  .featured-work-button {
+  /* .desktop-image {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 124px;
-    height: 48px;
-    background: #F55800;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-top: 24px;
-  }
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+
+  } */
+  
 
 }
 

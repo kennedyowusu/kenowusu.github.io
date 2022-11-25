@@ -547,7 +547,7 @@ p {
   }
 
   .featured-work-text h3 {
-    margin-top: -170px;
+    margin-top: -220px;
     width: 448px;
     height: 48px;
     font-family: 'Crete Round';
@@ -562,6 +562,7 @@ p {
 
   .featured-work-text p {
     width: 448px;
+    /* height: 140px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -598,7 +599,8 @@ p {
     align-items: center;
     width: 124px;
     height: 48px;
-    background: #F55800;
+    background: #FF6B00;
+    border-radius: 8px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -606,7 +608,6 @@ p {
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 24px;
   }
 
 }

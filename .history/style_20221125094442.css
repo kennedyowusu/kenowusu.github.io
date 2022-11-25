@@ -515,99 +515,74 @@ p {
     margin-right: 53px;
   }
 
-  .featured-works {
+  .featured-works-cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-left: 53px;
   }
 
-  .feature-work {
+  .featured-works-card {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    padding: 0 2rem;
-    margin-top: 60px;
-    margin-left: 53px;
+    flex-direction: row;
+    background-color: #fff;
   }
 
-  .featured-work-text {
+  .featured-works-card-image {
+   display: none;
+  }
+
+  .featured-works-card-text {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
-    width: 50%;
-    height: 100%;
     padding: 0 2rem;
+    width: 100%;
   }
 
-  .featured-work-text h3 {
-    margin-top: -170px;
-    width: 448px;
-    height: 48px;
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #091E42;
+  .featured-works-card-text h2 {
+   width: 448px;
+   height: 48px;
+   font-family: 'Crete Round';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 52px;
+   display: flex;
+   align-items: center;
+   color: #091E42;
   }
 
-  .featured-work-text p {
+  .featured-works-card-text p {
     width: 448px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
     color: #091E42;
   }
 
-  .featured-work-tags {
+ .featured-works-card-text-tags {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 12px;
-    gap: 10px;
-    width: 124px;
+    width: 25%;
   }
 
-  .featured-work-tag {
-    border: 1px solid #8993A4;
-    padding: 10px 12px;
-    height: 40px;
+   /* 
+  .featured-works-card-text-tags .tag {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 20px;
     color: #091E42;
-  }
-
-  .featured-work-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 124px;
-    height: 48px;
-    background: #F55800;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-top: 24px;
-  }
+   
+  } */
 
 }
 
