@@ -856,9 +856,7 @@ fieldset {
 /* DESKTOP VERSION */
 @media screen and (min-width: 768px) {
 
-  /* .featured-works-popup, .open-feature-work-popup {
-    display: none;
-  } */
+ 
 
   .brand-menu {
     padding: 1rem 2rem;
