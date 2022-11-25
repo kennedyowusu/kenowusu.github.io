@@ -6,16 +6,16 @@ toggleMenu.addEventListener('click', () => {
   navLinks.classList.toggle('show-nav-links');
 } );
 
-  const openFeatureWorkPopup = function (index) {
+  // Popup
 
-    const featureWorkPopup = document.getElementById("featured-works-popup" + index);
+  const featureWorkPopup = document.getElementById("featured-works-popup");
 
-    console.log(featureWorkPopup);
-    console.log("featured-works-popup" + index);
+  function openFeatureWorkPopup() {
+    featureWorkPopup.classList.add("open-feature-work-popup");
+  }
 
-    featureWorkPopup.classList.toggle("open-feature-work-popup");
-
-      console.log(index);
+  function closeFeatureWorkPopup() {
+    featureWorkPopup.classList.remove("open-feature-work-popup");
   }
 
 const worksMobile = [
@@ -49,7 +49,7 @@ const worksMobile = [
 
   {
     id: 3,
-    title: 'Multi Post Stories 3',
+    title: 'Multi Post Stories Three',
     description: '',
     tools: [
       'css',
@@ -98,6 +98,7 @@ const worksMobile = [
       'html',
       'bootstrap',
       'ruby',
+      'rose',
     ],
     image: '/images/works/mobile/popup-image.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
@@ -108,15 +109,12 @@ const worksMobile = [
 const featuredWorks = document.getElementById('workContainer');
 console.log(featuredWorks);
 
-const popWorks = document.getElementById('worksPopups');
-
-let popups = '';
 let works = '';
 
 worksMobile.map((element) => { 
   
   works +=
-    ` <div style="margin-bottom: 70px;" class="feature-work" id="${'feature-work-popup' + element.id}">
+    ` <div style="margin-bottom: 70px;" class="feature-work" id="feature-work-popup">
         <img class="desktop-image" src="/images/works/desktop/feature-work-desktop.png" alt="Featured Work Desktop" class="featured-work-image">
 
         <img class="mobile-image" src="/images/works/mobile/featured-work-mobile.svg" alt="Featured Work Mobile" class="featured-work-image">
@@ -128,59 +126,9 @@ worksMobile.map((element) => {
             ${element.tools.map((tool) => `<div class="featured-work-tag">${tool}</div>`)}
           </div>
           <!-- Use this button to open pop up window -->
-          <button type="button" class="featured-work-button" onclick="openFeatureWorkPopup(${element.id})">See Project</button>
+          <button type="button" class="featured-work-button" id="featured-work-button" onclick="openFeatureWorkPopup()">See Project</button>
         </div>
       </div>`
-
-  popups += `
-  <div class="featured-works-popup" id="${'featured-works-popup' + element.id}">
-      <!-- Heading Here -->
-      <div class="featured-works-popup-heading">
-        <h2 class="featured-works-popup-title" id="featured-works-popup-title">${element.title}</h2>
-        </h2>
-        <i class="fas fa-close" onclick="openFeatureWorkPopup(${element.id})"></i>
-      </div>
-
-      <!-- 3 Tags Here -->
-      <div class="featured-work-tags-popup">
-        ${element.tools.map((tool) => `<div class="featured-work-tag-popup">${tool}</div>`)}
-      </div>
-
-      <!-- Image Here -->
-      <div class="featured-works-popup-image">
-        
-        <img class="mobile-image-popup" src="${element.image}" alt="Featured Work Mobile" class="featured-works-popup-img" id="featured-works-popup-img">
-      </div>
-
-      <!-- Text Here -->
-      <div class="featured-works-popup-text">
-        <p class="featured-works-popup-para" id="featured-works-popup-para">
-          ${element.description}
-        </p>
-      </div>
-
-      <!-- 2 Buttons Here -->
-      <div class="featured-works-popup-btns">
-        <a href="#" class="featured-works-popup-btn" id="featured-works-popup-btn">
-          <p class="btn-text-popup">
-            See Live
-          </p>
-          <!-- add ref -->
-          <img class="eclipse-image-popup" src="/images/works/mobile/Icon.svg" alt="Button Icon" id="eclipse-image-popup">
-        </a>
-
-        <a href="#" class="featured-works-popup-btn" id="featured-works-popup-btn">
-          <p class="btn-text-popup">
-            See Live
-          </p>
-          <!-- add ref -->
-          <img class="eclipse-image-popup" src="/images/social-media-icons/github-light.svg" alt="Button Icon" id="eclipse-image-popup">
-        </a>
-      </di>
-
-      </div>
-    </div>`
 });
 
 featuredWorks.innerHTML = works;
-popWorks.innerHTML = popups;

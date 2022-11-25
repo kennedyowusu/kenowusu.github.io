@@ -128,7 +128,7 @@ worksMobile.map((element) => {
             ${element.tools.map((tool) => `<div class="featured-work-tag">${tool}</div>`)}
           </div>
           <!-- Use this button to open pop up window -->
-          <button type="button" class="featured-work-button" onclick="openFeatureWorkPopup(${element.id})">See Project</button>
+          <button type="button" class="featured-work-button" onclick="openFeatureWorkPopup(1)">See Project</button>
         </div>
       </div>`
 
@@ -138,7 +138,7 @@ worksMobile.map((element) => {
       <div class="featured-works-popup-heading">
         <h2 class="featured-works-popup-title" id="featured-works-popup-title">${element.title}</h2>
         </h2>
-        <i class="fas fa-close" onclick="openFeatureWorkPopup(${element.id})"></i>
+        <i class="fas fa-close" onclick="openFeatureWorkPopup(1)"></i>
       </div>
 
       <!-- 3 Tags Here -->

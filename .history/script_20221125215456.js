@@ -8,14 +8,14 @@ toggleMenu.addEventListener('click', () => {
 
   const openFeatureWorkPopup = function (index) {
 
-    const featureWorkPopup = document.getElementById("featured-works-popup" + index);
+    // const featureWorkPopup = document.getElementById("featured-works-popup" + index);
 
-    console.log(featureWorkPopup);
-    console.log("featured-works-popup" + index);
+    // console.log(featureWorkPopup);
+    // console.log("featured-works-popup" + index);
 
-    featureWorkPopup.classList.toggle("open-feature-work-popup");
+    // featureWorkPopup.classList.toggle("open-feature-work-popup");
 
-      console.log(index);
+    return console.log(index);
   }
 
 const worksMobile = [
@@ -128,7 +128,7 @@ worksMobile.map((element) => {
             ${element.tools.map((tool) => `<div class="featured-work-tag">${tool}</div>`)}
           </div>
           <!-- Use this button to open pop up window -->
-          <button type="button" class="featured-work-button" onclick="openFeatureWorkPopup(${element.id})">See Project</button>
+          <button type="button" class="featured-work-button" onclick="${openFeatureWorkPopup.bind(this, element.id)}">See Project</button>
         </div>
       </div>`
 
@@ -138,7 +138,7 @@ worksMobile.map((element) => {
       <div class="featured-works-popup-heading">
         <h2 class="featured-works-popup-title" id="featured-works-popup-title">${element.title}</h2>
         </h2>
-        <i class="fas fa-close" onclick="openFeatureWorkPopup(${element.id})"></i>
+        <i class="fas fa-close" onclick="${openFeatureWorkPopup.bind(this, element.id)}"></i>
       </div>
 
       <!-- 3 Tags Here -->
