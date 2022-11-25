@@ -331,7 +331,7 @@ p {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    margin: 70px 0; 
+    margin: 0px 0; 
     background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/works/mobile/first-work-mobile.svg);
   }
 
@@ -390,20 +390,30 @@ p {
   height: 64px;
   font-size: 18px;
   font-weight: 700;
+  
 }
 
-.first-view-work:hover {
+#open-work-view:active {
+  background: #e05304;
+}
+
+#open-work-view:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
 }
 
-.first-view-work:disabled {
+#open-work-view:disabled {
   background: #f4f1f0;
   border: none;
   color: #5b5957;
 }
 
+#open-work-view:enabled {
+  background: #f55800;
+  border: 1px solid #f55800;
+  color: #fff;
+}
 }
 
 /* DESKTOP VERSION */
