@@ -289,7 +289,7 @@ p {
 .open-feature-work-popup {
   transform: translate(-50%, -50%) scale(1);
   visibility: visible;
-  top: 200%;
+  top: 150%;
 }
 
 
