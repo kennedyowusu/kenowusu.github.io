@@ -303,25 +303,6 @@ p {
     text-align: center;
   }
 
-  .featured-work-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 12px;
-    padding: 12px;
-    gap: 10px;
-    width: 124px;
-    height: 48px;
-    background: var(--orange-color);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    text-align: center;
-    color: #fff;
-  }
-
   .desktop-image {
     display: none;
   }

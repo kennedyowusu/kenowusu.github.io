@@ -232,21 +232,10 @@ p {
   }
 
   .featured-works {
-    padding: 0 1.5rem;
+    padding: 0 2rem;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
-  }
-
-  .featured-works-heading {
-    height: 83px;
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 52px;
-    margin-bottom: 20px;
-    text-align: center;
   }
 
   .recent-works-hr {
@@ -255,71 +244,6 @@ p {
     background-color: #212121;
     border: 1px solid #212121;
     margin-top: 24px;
-  }
-
-  .featured-work-text {
-    width: 327px;
-    height: 237px;
-  }
-
-  .featured-work-text h3 {
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
-    text-align: start;
-    color: #091e42;
-    margin-bottom: 12px;
-  }
-
-  .featured-work-text p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #091e42;
-  }
-
-  .featured-work-tags{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 12px;
-  }
-
-  .featured-work-tag {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #091e42;
-    background-color: #fff;
-    border: 1px solid #8993a4;
-    padding: 8px 12px;
-    margin-right: 8px;
-    text-align: center;
-  }
-
-  .featured-work-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 12px;
-    padding: 12px;
-    gap: 10px;
-    width: 124px;
-    height: 48px;
-    background: var(--orange-color);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    text-align: center;
-    color: #fff;
   }
 
   .desktop-image {
@@ -507,7 +431,7 @@ p {
   }
 
 
-  .mobile-image {
+  . {
     display: none;
   }
 

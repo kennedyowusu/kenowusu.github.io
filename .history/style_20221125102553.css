@@ -313,6 +313,9 @@ p {
     width: 124px;
     height: 48px;
     background: var(--orange-color);
+  }
+
+  .btn-text p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -320,6 +323,7 @@ p {
     line-height: 24px;
     text-align: center;
     color: #fff;
+    background: var(--orange-color);
   }
 
   .desktop-image {
