@@ -513,7 +513,6 @@ p {
   line-height: 82px;
   margin-left: 20px;
   margin-bottom: 16px;
-  margin-top: 80px;
 }
 
 #resume > p {
@@ -525,7 +524,7 @@ p {
   color: #f4f5f7;
   margin-bottom: 36px;
   margin-left: 20px;
-  width: 330px;
+  width: 300px;
 }
 
 #skills {
@@ -682,7 +681,6 @@ fieldset {
   width: 90%;
   margin-bottom: 56px;
   margin-top: 32px;
-  margin-left: 20px;
 }
 
 #about-image {

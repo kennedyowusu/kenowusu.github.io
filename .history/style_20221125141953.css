@@ -513,7 +513,7 @@ p {
   line-height: 82px;
   margin-left: 20px;
   margin-bottom: 16px;
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 #resume > p {
@@ -682,7 +682,6 @@ fieldset {
   width: 90%;
   margin-bottom: 56px;
   margin-top: 32px;
-  margin-left: 20px;
 }
 
 #about-image {
