@@ -282,7 +282,7 @@ p {
     color: #091e42;
   }
 
-  .featured-work-tags {
+  .featured-work-tags{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -324,13 +324,6 @@ p {
 
   .desktop-image {
     display: none;
-  }
-
-  .popular-works {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
   }
 }
 

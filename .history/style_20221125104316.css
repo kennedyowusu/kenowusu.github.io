@@ -325,13 +325,6 @@ p {
   .desktop-image {
     display: none;
   }
-
-  .popular-works {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-  }
 }
 
 /* DESKTOP VERSION */

@@ -327,9 +327,6 @@ p {
   }
 
   .popular-works {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     
   }
 }
