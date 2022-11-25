@@ -6,6 +6,18 @@ toggleMenu.addEventListener('click', () => {
   navLinks.classList.toggle('show-nav-links');
 } );
 
+  // Popup
+
+  const featureWorkPopup = document.getElementById("featured-works-popup");
+
+  function openFeatureWorkPopup() {
+    featureWorkPopup.classList.add("open-feature-work-popup");
+  }
+
+  function closeFeatureWorkPopup() {
+    featureWorkPopup.classList.remove("open-feature-work-popup");
+  }
+
 const worksDesktop = [
   {
     id: 1,
