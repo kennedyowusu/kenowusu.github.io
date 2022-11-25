@@ -234,7 +234,7 @@ p {
   .featured-works {
     padding: 0 1.5rem;
     margin-top: 80px;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
   }
 
@@ -340,7 +340,7 @@ p {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    margin: -0px 0; 
+    margin: -20px 0; 
     background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/works/mobile/first-work-mobile.svg);
   }
 

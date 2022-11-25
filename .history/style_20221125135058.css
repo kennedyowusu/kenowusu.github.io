@@ -234,7 +234,7 @@ p {
   .featured-works {
     padding: 0 1.5rem;
     margin-top: 80px;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
   }
 
