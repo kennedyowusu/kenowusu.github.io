@@ -1046,6 +1046,7 @@ form {
   justify-content: space-between;
   margin-top: -70px;
   display: flex;
+  justify-content: flex-end;
   font-size: 30px;
   color: #67798E;
 }

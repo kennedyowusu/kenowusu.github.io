@@ -1044,8 +1044,9 @@ form {
 
 .popup-close {
   justify-content: space-between;
-  margin-top: -70px;
+  margin-top: -80px;
   display: flex;
+  justify-content: flex-end;
   font-size: 30px;
   color: #67798E;
 }
