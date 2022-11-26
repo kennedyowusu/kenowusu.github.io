@@ -1217,7 +1217,7 @@ article img, article.featured {
 
 .hr-lines {
   display: flex;
-  width: 120%;
+  width: 100%;
   margin-left: 120px;
   margin-right: 122px;
   margin-top: -600px;

@@ -116,7 +116,7 @@ let works = '';
 worksMobile.map((element) => { 
   
   works +=
-    ` <div style="margin-bottom: 70px;" class="feature-work feature-work-desktop" id="${'feature-work-popup' + element.id}">
+    ` <div style="margin-bottom: 70px;" class="feature-work" id="${'feature-work-popup' + element.id}">
         <img class="desktop-image" src="/images/works/desktop/feature-work-desktop.png" alt="Featured Work Desktop" class="featured-work-image">
 
         <img class="mobile-image" src="/images/works/mobile/featured-work-mobile.svg" alt="Featured Work Mobile" class="featured-work-image">
