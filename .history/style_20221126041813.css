@@ -1366,6 +1366,8 @@ form {
   background-color: #fbf8f7;
   color: #3c3a39; 
   font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -1382,7 +1384,7 @@ input:focus {
   height: 48px;
   width: 122px;
   background-color: #ff6b00;
-  margin-bottom: -14px;
+  margin-bottom: 4px;
   border-radius: 1px solid #ff6b00;
 }
 
@@ -1401,24 +1403,6 @@ input:focus {
   height: 1px;
   margin-bottom: 1px;
 }
-
-.social-media-icons-container {
-  margin-bottom: 1px;
-  height: 48px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
-}
-
-.social-media-icons-container > li {
-  list-style-type: none;
-}
-
-.social-media-icons-container > li > a {
-  margin-left: 21px;
-  }
 
 }
 

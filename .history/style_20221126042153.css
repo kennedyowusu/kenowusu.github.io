@@ -1366,6 +1366,8 @@ form {
   background-color: #fbf8f7;
   color: #3c3a39; 
   font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -1373,17 +1375,6 @@ form {
 textarea:focus,
 input:focus {
   outline: none;
-}
-
-.contact-me-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 48px;
-  width: 122px;
-  background-color: #ff6b00;
-  margin-bottom: -14px;
-  border-radius: 1px solid #ff6b00;
 }
 
 .submit-button {
@@ -1418,7 +1409,7 @@ input:focus {
 
 .social-media-icons-container > li > a {
   margin-left: 21px;
-  }
+}
 
 }
 
