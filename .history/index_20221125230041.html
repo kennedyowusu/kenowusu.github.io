@@ -211,45 +211,26 @@
       <h2 id="contact-para">I'm always interested in hearing about new projects,
         so if you'd like to chat please get in touch.</h2>
 
-      <form action="https://formspree.io/f/xbjbpojv" method="POST" id="query-form">
-        <input type="text" name="name" placeholder="Full name" class="text-input-box" maxlength="30" required
-          id="fName" />
-        <input type="email" name="email" placeholder="Email address" class="text-input-box" required id="uEmail" />
-
-        <textarea class="form-msg" name="message" id="uMessage" cols="30" rows="10" placeholder="Enter text here"
-          maxlength="500" required></textarea>
-
-        <label for="" id="error"> </label>
-
-        <button type="submit" class="submit-button">Get in touch</button>
-
-        <!-- <button type="button" class="my-buttons" id="reset-form"> Reset Form </button> -->
-
-      </form>
-
-      <!-- <form id="contact-me-form" action="https://formspree.io/f/xbjbpojv" method="post" id="retrieveFormData">
+      <form id="contact-me-form" action="https://formspree.io/f/xbjbpojv" method="post" id="retrieveFormData">
 
         <fieldset>
 
-          <input type="text" id="fName" name="fName" maxlength="30" required placeholder="Full Name" />
+          <!-- <div class="person-name">
+            <input type="text" id="firstname" name="firstname" maxlength="30" required placeholder="First Name" />
+            <input type="text" id="lastname" name="lastname" maxlength="30" placeholder="Last Name" required />
+          </div> -->
 
-          <input type="email" id="uEmail" name="email" placeholder="Email Address" required />
-
-          <textarea id="uQuery" class="form-query" name="query" placeholder="Hello Kennedy. Glad to see you |" required>
+          <input type="text" id="fName" name="fullname" maxlength="30" required placeholder="Full name" />
+          <input type="email" id="email" name="email" placeholder="Email address" required />
+          <textarea id="msg" class="form-msg" name="msg" required placeholder="Hello Kennedy. Glad to see you |">
           </textarea>
 
-          <label for="" id="error"> </label>
-
           <li class="contact-me-button" id="contact-me-button">
-
             <button class="submit-button" id="submit-button" type="submit">Get in touch</button>
-
           </li>
-
-
         </fieldset>
 
-      </form> -->
+      </form>
 
       <ul id="contact-social-media">
         <li><a href=""><img src="../images/social-media-icons/github-dark.svg" alt="Github Icon"></a></li>
