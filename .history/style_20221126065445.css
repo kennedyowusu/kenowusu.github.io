@@ -992,7 +992,7 @@ form {
 /* TESTING POP UP */
 
 .web-popup {
-  width: 80%;
+  width: 70%;
   height: 75%;
   position: fixed;
   top: 0;
@@ -1025,7 +1025,6 @@ form {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 80px;
 }
 
 .popup-title {
@@ -1047,6 +1046,8 @@ form {
   margin-top: -80px;
   display: flex;
   justify-content: flex-end;
+  /* padding: 0 30px; */
+  /* padding-right: 150px; */
   font-size: 30px;
   color: #67798E;
 }

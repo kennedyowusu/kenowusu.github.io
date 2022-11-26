@@ -993,14 +993,18 @@ form {
 
 .web-popup {
   width: 80%;
-  height: 75%;
+  height: 85%;
   position: fixed;
   top: 0;
   left: 50%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   visibility: hidden;
   transform: translate(-50%, -50%) scale(0.1);
   transition: transform 0.3s, top 0.3s, visibility 0.3s;
+  padding: 0 30px;
+  text-align: center;
 }
 
 .open-web-popup {
@@ -1025,13 +1029,15 @@ form {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 80px;
 }
 
 .popup-title {
   justify-content: space-between;
   align-items: flex-start;
-  width: 200%;
+  /* padding: 0 30px; */
+  padding-left: 80px;
+  padding-right: 40px;
+  text-align: center;
   font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
@@ -1047,14 +1053,13 @@ form {
   margin-top: -80px;
   display: flex;
   justify-content: flex-end;
+  padding: 0 30px;
   font-size: 30px;
   color: #67798E;
 }
 
 .popup-tags {
   display: flex;
-  margin-bottom: 10px;
-  margin-top: -5px;
 }
 
 .popup-tag {
@@ -1071,15 +1076,15 @@ form {
 
 .popup-body {
   display: flex;
-  /* justify-content: space-between;
+  justify-content: space-between;
   align-items: center;
-  text-align: center; */
+  text-align: center;
 }
 
 .web-popup-image {
-  /* width: 659px; */
+  width: 659px;
   height: 248px;
-  background-color: red;
+  background-color: #fff;
 }
 
 .popup-text  {
@@ -1103,7 +1108,6 @@ form {
   align-items: center;
   text-align: center;
   margin-right: 10px;
-  margin-top: 20px;;
   padding: 12px;
   gap: 12px;
   width: 134px;

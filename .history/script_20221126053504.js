@@ -141,6 +141,7 @@ worksMobile.map((element) => {
         <i class="fas fa-close" onclick="openFeatureWorkPopup(${element.id})"></i>
       </div>
 
+      <!-- 3 Tags Here -->
       <div class="featured-work-tags-popup">
         ${element.tools.map((tool) => `<div class="featured-work-tag-popup">${tool}</div>`)}
       </div>
@@ -189,11 +190,11 @@ let deskTopPopup = document.getElementById('webPopup');
 
 function openDesktopPopup() {
   console.log('openDesktopPopup');
-  deskTopPopup.classList.add('open-web-popup');
+  deskTopPopup.classList.add('.open-web-popup');
 }
 
 function closeDesktopPopup() {
-  deskTopPopup.classList.remove('open-web-popup');
+  deskTopPopup.classList.remove('.open-web-popup');
 }
 
 

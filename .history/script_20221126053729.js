@@ -141,6 +141,7 @@ worksMobile.map((element) => {
         <i class="fas fa-close" onclick="openFeatureWorkPopup(${element.id})"></i>
       </div>
 
+      <!-- 3 Tags Here -->
       <div class="featured-work-tags-popup">
         ${element.tools.map((tool) => `<div class="featured-work-tag-popup">${tool}</div>`)}
       </div>

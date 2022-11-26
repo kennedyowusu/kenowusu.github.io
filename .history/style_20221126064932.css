@@ -993,7 +993,7 @@ form {
 
 .web-popup {
   width: 80%;
-  height: 75%;
+  height: 85%;
   position: fixed;
   top: 0;
   left: 50%;
@@ -1001,6 +1001,7 @@ form {
   visibility: hidden;
   transform: translate(-50%, -50%) scale(0.1);
   transition: transform 0.3s, top 0.3s, visibility 0.3s;
+  /* padding: 0 30px; */
 }
 
 .open-web-popup {
@@ -1025,7 +1026,6 @@ form {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 80px;
 }
 
 .popup-title {
@@ -1047,6 +1047,8 @@ form {
   margin-top: -80px;
   display: flex;
   justify-content: flex-end;
+  /* padding: 0 30px; */
+  /* padding-right: 150px; */
   font-size: 30px;
   color: #67798E;
 }
@@ -1091,10 +1093,10 @@ form {
 
 .popup-buttons {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between;
   align-items: center;
   padding: 0 30px;
-  text-align: center;
+  text-align: center; */
 }
 
 .btn-icon {
@@ -1102,8 +1104,6 @@ form {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin-right: 10px;
-  margin-top: 20px;;
   padding: 12px;
   gap: 12px;
   width: 134px;
