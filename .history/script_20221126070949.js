@@ -110,8 +110,11 @@ console.log(featuredWorks);
 
 const popWorks = document.getElementById('worksPopups');
 
+const desktopWork = document.getElementById('desktopWorkContainer');
+
 let popups = '';
 let works = '';
+let deskTopWorks = '';
 
 worksMobile.map((element) => { 
   
@@ -141,7 +144,6 @@ worksMobile.map((element) => {
         <i class="fas fa-close" onclick="openFeatureWorkPopup(${element.id})"></i>
       </div>
 
-      <!-- 3 Tags Here -->
       <div class="featured-work-tags-popup">
         ${element.tools.map((tool) => `<div class="featured-work-tag-popup">${tool}</div>`)}
       </div>
@@ -184,6 +186,7 @@ worksMobile.map((element) => {
 
 featuredWorks.innerHTML = works;
 popWorks.innerHTML = popups;
+desktopWork.innerHTML = deskTopWorks;
 
 // Open and close popup For Desktop
 let deskTopPopup = document.getElementById('webPopup');

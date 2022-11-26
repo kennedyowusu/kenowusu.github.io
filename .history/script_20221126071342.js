@@ -105,13 +105,34 @@ const worksMobile = [
 
 ];
 
+const desktopWOrks = [
+  {
+    id: 1,
+    title: 'Multi Post Stories',
+    description: '',
+    tools: [
+      'css',
+      'html',
+      'bootstrap',
+      'ruby',
+    ],
+    image: '/images/works/mobile/popup-image.svg',
+    
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  },
+  
+];
+
 const featuredWorks = document.getElementById('workContainer');
 console.log(featuredWorks);
 
 const popWorks = document.getElementById('worksPopups');
 
+const desktopWork = document.getElementById('desktopWorkContainer');
+
 let popups = '';
 let works = '';
+let deskTopWorks = '';
 
 worksMobile.map((element) => { 
   
@@ -141,7 +162,6 @@ worksMobile.map((element) => {
         <i class="fas fa-close" onclick="openFeatureWorkPopup(${element.id})"></i>
       </div>
 
-      <!-- 3 Tags Here -->
       <div class="featured-work-tags-popup">
         ${element.tools.map((tool) => `<div class="featured-work-tag-popup">${tool}</div>`)}
       </div>
@@ -184,6 +204,7 @@ worksMobile.map((element) => {
 
 featuredWorks.innerHTML = works;
 popWorks.innerHTML = popups;
+desktopWork.innerHTML = deskTopWorks;
 
 // Open and close popup For Desktop
 let deskTopPopup = document.getElementById('webPopup');

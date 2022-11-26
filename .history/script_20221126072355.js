@@ -105,13 +105,58 @@ const worksMobile = [
 
 ];
 
+const desktopWOrks = [
+  {
+    id: 1,
+    title: 'Keeping track of hundreds of components website',
+    description: '',
+    tools: [
+      'css',
+      'html',
+      'bootstrap',
+      'ruby',
+    ],
+    image: '/images/works/mobile/popup-image.svg',
+    
+    description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry.\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. orem Ipsum has been the industry\s standard dummy text ever Lorem Ipsum has been the industry\s standard du mmy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\s standard dummy text ever since the 1500s, when an  unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita..',  
+  },
+  
+];
+
 const featuredWorks = document.getElementById('workContainer');
 console.log(featuredWorks);
 
 const popWorks = document.getElementById('worksPopups');
 
+const desktopWork = document.getElementById('desktopWorkContainer');
+
 let popups = '';
 let works = '';
+let deskTopWorks = '';
+
+desktopWOrks.map((work) => {
+  deskTopWorks += `
+  <div class="first-card" id="deskTopPopup">
+    <img class="first-work" src="${element.title}" alt="First Work" />
+    <div class="card-content">
+      <h3 class="card-title">Multi-Post Stories</h3>
+      <p class="card-description">
+        A daily selection of privately personalized reads; no
+        accounts or sign-ups required. has been the industry's
+        standard dummy text ever since the 1500s, when an unknown
+        printer took a standard dummy text.
+      </p>
+      <ul class="card-list">
+        <li class="card-list-item">css</li>
+        <li class="card-list-item">html</li>
+        <li class="card-list-item">bootstrap</li>
+        <li class="card-list-item">Ruby</li>
+
+      </ul>
+      <a class="card-link" href="#" class="web-btn" onclick="openDesktopPopup()">See Project</a>
+    </div>
+  </div>`;
+});
 
 worksMobile.map((element) => { 
   
@@ -141,7 +186,6 @@ worksMobile.map((element) => {
         <i class="fas fa-close" onclick="openFeatureWorkPopup(${element.id})"></i>
       </div>
 
-      <!-- 3 Tags Here -->
       <div class="featured-work-tags-popup">
         ${element.tools.map((tool) => `<div class="featured-work-tag-popup">${tool}</div>`)}
       </div>
@@ -180,10 +224,12 @@ worksMobile.map((element) => {
 
       </div>
     </div>`
+
 });
 
 featuredWorks.innerHTML = works;
 popWorks.innerHTML = popups;
+desktopWork.innerHTML = deskTopWorks;
 
 // Open and close popup For Desktop
 let deskTopPopup = document.getElementById('webPopup');

@@ -105,13 +105,53 @@ const worksMobile = [
 
 ];
 
+const desktopWOrks = [
+  {
+    id: 1,
+    title: 'Multi-Post Stories',
+    description: '',
+    tools: [
+      'css',
+      'html',
+      'bootstrap',
+      'ruby',
+    ],
+    image: '/images/works/desktop/feature-work-desktop.png',
+    
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',  
+  },
+  
+];
+
 const featuredWorks = document.getElementById('workContainer');
 console.log(featuredWorks);
 
 const popWorks = document.getElementById('worksPopups');
 
+const desktopWork = document.getElementById('desktopWorkContainer');
+
 let popups = '';
 let works = '';
+let deskTopWorks = '';
+
+// desktopWOrks.map((work) => {
+//   deskTopWorks += `
+//   <div class="first-card" id="deskTopPopup">
+//     <img class="first-work" src="${work.image}" alt="First Work" />
+//     <div class="card-content">
+//       <h3 class="card-title">${work.title}</h3>
+//       <p class="card-description">
+//         ${work.description}
+//       </p>
+
+//       <ul class="card-list">
+//         ${work.tools.map((tool) => `<li class="card-list-item">${tool}</li>`)}
+
+//       </ul>
+//       <a class="card-link" href="#" class="web-btn" onclick="openDesktopPopup($(work.id))">See Project</a>
+//     </div>
+//   </div>`;
+// });
 
 worksMobile.map((element) => { 
   
@@ -141,7 +181,6 @@ worksMobile.map((element) => {
         <i class="fas fa-close" onclick="openFeatureWorkPopup(${element.id})"></i>
       </div>
 
-      <!-- 3 Tags Here -->
       <div class="featured-work-tags-popup">
         ${element.tools.map((tool) => `<div class="featured-work-tag-popup">${tool}</div>`)}
       </div>
@@ -180,10 +219,12 @@ worksMobile.map((element) => {
 
       </div>
     </div>`
+
 });
 
 featuredWorks.innerHTML = works;
 popWorks.innerHTML = popups;
+desktopWork.innerHTML = deskTopWorks;
 
 // Open and close popup For Desktop
 let deskTopPopup = document.getElementById('webPopup');
