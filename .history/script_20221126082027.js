@@ -167,7 +167,7 @@ worksMobile.map((element) => {
       </di>
 
       </div>
-    </div>`;
+    </div>`
 });
 
 featuredWorks.innerHTML = works;
@@ -178,6 +178,7 @@ const deskTopPopup = document.getElementById('webPopup');
 
 // eslint-disable-next-line no-unused-vars
 function openDesktopPopup() {
+  console.log('openDesktopPopup');
   deskTopPopup.classList.add('open-web-popup');
 }
 
@@ -185,6 +186,7 @@ function openDesktopPopup() {
 function closeDesktopPopup() {
   deskTopPopup.classList.remove('open-web-popup');
 }
+
 
 function storeUserDataLocally(uName, uEmail, uComment) {
   const userObject = {

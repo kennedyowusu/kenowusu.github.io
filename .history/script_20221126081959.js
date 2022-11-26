@@ -17,6 +17,7 @@ const worksMobile = [
   {
     id: 1,
     title: 'Multi Post Stories One',
+    description: '',
     tools: [
       'css',
       'html',
@@ -30,6 +31,7 @@ const worksMobile = [
   {
     id: 2,
     title: 'Multi Post Stories Two',
+    description: '',
     tools: [
       'css',
       'html',
@@ -43,6 +45,7 @@ const worksMobile = [
   {
     id: 3,
     title: 'Multi Post Stories 3',
+    description: '',
     tools: [
       'css',
       'html',
@@ -56,6 +59,7 @@ const worksMobile = [
   {
     id: 4,
     title: 'Multi Post Stories Four',
+    description: '',
     tools: [
       'css',
       'html',
@@ -69,6 +73,7 @@ const worksMobile = [
   {
     id: 5,
     title: 'Multi Post Stories Five',
+    description: '',
     tools: [
       'css',
       'html',
@@ -82,6 +87,7 @@ const worksMobile = [
   {
     id: 6,
     title: 'Multi Post Stories Six',
+    description: '',
     tools: [
       'css',
       'html',
@@ -167,7 +173,7 @@ worksMobile.map((element) => {
       </di>
 
       </div>
-    </div>`;
+    </div>`
 });
 
 featuredWorks.innerHTML = works;
@@ -178,6 +184,7 @@ const deskTopPopup = document.getElementById('webPopup');
 
 // eslint-disable-next-line no-unused-vars
 function openDesktopPopup() {
+  console.log('openDesktopPopup');
   deskTopPopup.classList.add('open-web-popup');
 }
 
@@ -185,6 +192,7 @@ function openDesktopPopup() {
 function closeDesktopPopup() {
   deskTopPopup.classList.remove('open-web-popup');
 }
+
 
 function storeUserDataLocally(uName, uEmail, uComment) {
   const userObject = {
