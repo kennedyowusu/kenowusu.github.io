@@ -853,12 +853,6 @@ form {
   visibility: visible;
   top: 200%;
   }
-
-  /* HIDE CONTACT ME FOR WEB */
-
-  .contact-me-web {
-    display: none;
-  }
 }
 
 /* DESKTOP VERSION */
