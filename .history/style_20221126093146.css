@@ -128,21 +128,6 @@ p {
   padding: 0 3.5rem;
 }
 
-.about > a {
-  order: 3;
-  margin-top: 24px;
-  width: 137px;
-  height: 24px;
-  background: #f55800;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  color: #fff;
-  padding: 12px 24px;
-}
-
 .nav-links li a {
   font-size: 1.8rem;
   font-weight: 700;
@@ -176,17 +161,21 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+
+  .envelope-icon {
+      display: none;
+  }
+  .nav-link {
+      display: none;
+  }
+
   .envelope-icon {
     display: none;
   }
 
-  .nav-link {
+.footer-web {
     display: none;
-  }
-
-  .footer-web {
-    display: none;
-  }
+    }
 
   .my-works {
     display: none;
@@ -201,6 +190,7 @@ p {
     background-position-y: 290px;
     background-position-x: right;
     background-repeat: no-repeat;
+    height: 670px;
   }
 
   .hero-text {
@@ -217,6 +207,7 @@ p {
   }
 
   .hero-text h2 {
+    font-size: 24px;
     color: var(--semi-white-color);
     font-style: normal;
     font-weight: 700;
@@ -230,6 +221,7 @@ p {
 
   .hero-text p {
     color: #fff;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -309,7 +301,7 @@ p {
     margin-top: 12px;
   }
 
-  .desktop-image {
+  .desktop-image{
     display: none;
   }
 
@@ -344,12 +336,16 @@ p {
     color: #fff;
   }
 
+  .desktop-image {
+    display: none;
+  }
+
   .sixth-works {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    margin: -50px 0;
+    margin: -50px 0; 
     background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/works/mobile/first-work-mobile.svg);
   }
 
@@ -358,6 +354,7 @@ p {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+    margin: -0px 0; 
     background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/works/mobile/first-work-mobile.svg);
   }
 
@@ -366,7 +363,7 @@ p {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    margin: -40px 0;
+    margin: -40px 0; 
     background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/works/mobile/first-work-mobile.svg);
   }
 
@@ -375,7 +372,7 @@ p {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    margin: -50px 0;
+    margin: -50px 0; 
     background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/works/mobile/first-work-mobile.svg);
   }
 
@@ -384,7 +381,7 @@ p {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    margin: 60px 0;
+    margin: 60px 0; 
     background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/works/mobile/first-work-mobile.svg);
   }
 
@@ -1472,6 +1469,21 @@ p {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
+  }
+
+  .about > a {
+    order: 3;
+    margin-top: 24px;
+    width: 137px;
+    height: 24px;
+    background: #f55800;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 12px 24px;
   }
 
   article img,

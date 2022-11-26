@@ -128,21 +128,6 @@ p {
   padding: 0 3.5rem;
 }
 
-.about > a {
-  order: 3;
-  margin-top: 24px;
-  width: 137px;
-  height: 24px;
-  background: #f55800;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  color: #fff;
-  padding: 12px 24px;
-}
-
 .nav-links li a {
   font-size: 1.8rem;
   font-weight: 700;
@@ -176,10 +161,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  
   .envelope-icon {
     display: none;
   }
-
   .nav-link {
     display: none;
   }
@@ -357,7 +342,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
+    width: 100%; 
     background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/works/mobile/first-work-mobile.svg);
   }
 
@@ -1472,6 +1457,21 @@ p {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
+  }
+
+  .about > a {
+    order: 3;
+    margin-top: 24px;
+    width: 137px;
+    height: 24px;
+    background: #f55800;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 12px 24px;
   }
 
   article img,
