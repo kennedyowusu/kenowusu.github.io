@@ -16,7 +16,7 @@ const openFeatureWorkPopup = function (index) {
 const worksMobile = [
   {
     id: 1,
-    title: 'Multi Post Stories 1',
+    title: 'Multi Post Stories One',
     tools: [
       'css',
       'html',
@@ -29,7 +29,7 @@ const worksMobile = [
 
   {
     id: 2,
-    title: 'Multi Post Stories 2',
+    title: 'Multi Post Stories Two',
     tools: [
       'css',
       'html',
@@ -55,7 +55,7 @@ const worksMobile = [
 
   {
     id: 4,
-    title: 'Multi Post Stories 4',
+    title: 'Multi Post Stories Four',
     tools: [
       'css',
       'html',
@@ -68,7 +68,7 @@ const worksMobile = [
 
   {
     id: 5,
-    title: 'Multi Post Stories 5',
+    title: 'Multi Post Stories Five',
     tools: [
       'css',
       'html',
@@ -81,7 +81,7 @@ const worksMobile = [
 
   {
     id: 6,
-    title: 'Multi Post Stories 6',
+    title: 'Multi Post Stories Six',
     tools: [
       'css',
       'html',
@@ -104,7 +104,7 @@ let works = '';
 // eslint-disable-next-line array-callback-return
 worksMobile.map((element) => {
   works
-    += ` <div style="margin-bottom: 141px;" class="feature-work feature-work-desktop" id="${`feature-work-popup${element.id}`}">
+    += ` <div style="margin-bottom: 70px;" class="feature-work feature-work-desktop" id="${`feature-work-popup${element.id}`}">
         <img class="mobile-image" src="/images/works/mobile/featured-work-mobile.svg" alt="Featured Work Mobile" class="featured-work-image">
 
         <div class="featured-work-text">
