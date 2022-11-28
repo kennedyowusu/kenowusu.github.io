@@ -23,7 +23,7 @@ const worksMobile = [
       'bootstrap',
       'ruby',
     ],
-    image: '/images/works/mobile/popup-image.svg',
+    image: '/images/works/mobile/featured-work-mobile.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy test.',
   },
 
@@ -36,7 +36,7 @@ const worksMobile = [
       'bootstrap',
       'ruby',
     ],
-    image: '/images/works/mobile/popup-image.svg',
+    image: '/images/works/mobile/featured-work-mobile.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy texts.',
   },
 
@@ -49,7 +49,7 @@ const worksMobile = [
       'bootstrap',
       'ruby',
     ],
-    image: '/images/works/mobile/popup-image.svg',
+    image: '/images/works/mobile/featured-work-mobile.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   },
 
@@ -62,7 +62,7 @@ const worksMobile = [
       'bootstrap',
       'ruby',
     ],
-    image: '/images/works/mobile/popup-image.svg',
+    image: '/images/works/mobile/featured-work-mobile.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   },
 
@@ -75,7 +75,7 @@ const worksMobile = [
       'bootstrap',
       'ruby',
     ],
-    image: '/images/works/mobile/popup-image.svg',
+    image: '/images/works/mobile/featured-work-mobile.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   },
 
@@ -88,7 +88,7 @@ const worksMobile = [
       'bootstrap',
       'ruby',
     ],
-    image: '/images/works/mobile/popup-image.svg',
+    image: '/images/works/mobile/featured-work-mobile.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   },
 
@@ -101,7 +101,6 @@ const popWorks = document.getElementById('worksPopups');
 let popups = '';
 let works = '';
 
-// eslint-disable-next-line array-callback-return
 worksMobile.map((element) => {
   works
     += ` <div style="margin-bottom: 141px;" class="feature-work feature-work-desktop" id="${`feature-work-popup${element.id}`}">
@@ -172,17 +171,11 @@ featuredWorks.innerHTML = works;
 popWorks.innerHTML = popups;
 
 // Open and close popup For Desktop
-const deskTopPopup = document.getElementById('webPopup');
+// const deskTopPopup = document.getElementById('webPopup');
 
-// eslint-disable-next-line no-unused-vars
-function openDesktopPopup() {
-  deskTopPopup.classList.add('open-web-popup');
-}
-
-// eslint-disable-next-line no-unused-vars
-function closeDesktopPopup() {
-  deskTopPopup.classList.remove('open-web-popup');
-}
+// function openDesktopPopup() {
+//   deskTopPopup.classList.add('open-web-popup');
+// }
 
 function storeUserDataLocally(uName, uEmail, uComment) {
   const userObject = {
