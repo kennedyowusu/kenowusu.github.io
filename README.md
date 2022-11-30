@@ -209,5 +209,3 @@ I would like to thank [Cindy Shin](https://www.behance.net/adagio07)
 This project is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
 
 This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
