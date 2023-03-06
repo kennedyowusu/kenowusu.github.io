@@ -5,7 +5,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**Portfolio** is a portfolio project demonstrating the application of the skills I have acquired so far while learning at Microverse.
+**"Portfolio"** is a portfolio project demonstrating the application of the skills I have acquired so far while learning at Microverse.
 
 ## 🛠 Built With <a name="built-with"></a>
 
